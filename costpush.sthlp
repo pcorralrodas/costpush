@@ -28,6 +28,15 @@ changes due to price shock. The input data is assumed to be a square matrix wher
 each observation i and variable i represent the same sector of the economy, 
 and its value is a technology coefficient.
 
+{pstd}
+The command outputs the total price shock and indirect price shock for every 
+sector due to the change in price across different sectors. To get the total 
+impact for each household users must merge the data with the calculated shocks 
+(at the sector level) to household expenditure dataset (at household and sector 
+level) and multiply the total shock (ie. the variable produced under the genptot
+option) with the household’s expenditure on each sector. This will yield the 
+change in household expenditure on each sector due to the shock.
+
 {title:Options}
 
 {phang}
@@ -44,7 +53,6 @@ and its value is a technology coefficient.
 
 {phang}
 {opt fix} Optional, and requests that when obtaining indirect effects fixed sectors are immune to price changes. Thus indirect for sector i = 0.
-
 
 
 {title:Example}
