@@ -32,12 +32,6 @@ Copy `costpush.ado` and `costpush.sthlp` to your Stata `ado` directory, or to yo
 sysdir
 ```
 
-Or install directly from GitHub using `net install` (if applicable):
-
-```stata
-net install costpush, from("https://raw.githubusercontent.com/pcorralrodas/costpush/master/")
-```
-
 **Requirements:** Stata version 11.2 or higher.
 
 ---
