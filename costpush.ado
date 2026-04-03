@@ -1,6 +1,6 @@
 *! costpush v1
 * Paul Corral - WBG - Equity Policy Lab
-
+*Example
 cap prog drop costpush
 cap set matastrict off
 program define costpush, rclass
